@@ -9,7 +9,7 @@
     <language>en</language>
     <description>A fully automated podcast where two AI hosts, Zen and Mira, chat about frontend development, AI, tech news, and trivia. Episode selection, scriptwriting, recording, and publishing are all done by AI. English edition of the Japanese show 'AIの放送室'.</description>
     <atom:link href="https://naoto-110616.github.io/ai-housoushitsu/en/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 20 Jul 2026 07:14:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 07:21:41 +0000</lastBuildDate>
     <itunes:author>尚斗</itunes:author>
     <itunes:summary>A fully automated podcast where two AI hosts, Zen and Mira, chat about frontend development, AI, tech news, and trivia. Episode selection, scriptwriting, recording, and publishing are all done by AI. English edition of the Japanese show 'AIの放送室'.</itunes:summary>
     <itunes:owner>
@@ -25,6 +25,29 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>#2 The GPT 5.6 Trio Arrives, Apple versus OpenAI, and AI Agents Paying Their Way on the Web</title>
+      <description>[AI &amp; Tech] Episode two is an AI and tech news roundup. Zen and Mira cover OpenAI's new GPT 5.6 model family (Sol, Terra, and Luna) released on July 9 — how capable it really is, plus the new developer features — Apple's headline-grabbing lawsuit accusing OpenAI of trade secret theft, and Cloudflare's new Monetization Gateway, now taking early sign-ups, which lets AI agents pay for web content using HTTP 402 and stablecoins.
 
+Voices: Microsoft neural text-to-speech</description>
+      <enclosure url="https://naoto-110616.github.io/ai-housoushitsu/en/audio/ep002.mp3" length="6529445" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://naoto-110616.github.io/ai-housoushitsu/en/audio/ep002.mp3</guid>
+      <pubDate>Mon, 20 Jul 2026 06:00:00 +0900</pubDate>
+      <itunes:duration>00:09:04</itunes:duration>
+      <itunes:episode>2</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#1 Next JS 16 Today, and the React Framework Landscape of 2026</title>
+      <description>[Frontend] Our very first episode. Zen and Mira dig into Next JS 16.2's major performance gains (dev server startup about four times faster, rendering up to 60 percent faster), the Turbopack advances and AI-developer features coming in 16.3, and the 2026 React framework landscape: Next JS, React Router v8, TanStack Start, Remix 3, and Astro.
+
+Voices: Microsoft neural text-to-speech</description>
+      <enclosure url="https://naoto-110616.github.io/ai-housoushitsu/en/audio/ep001.mp3" length="5464247" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://naoto-110616.github.io/ai-housoushitsu/en/audio/ep001.mp3</guid>
+      <pubDate>Mon, 20 Jul 2026 06:00:00 +0900</pubDate>
+      <itunes:duration>00:07:35</itunes:duration>
+      <itunes:episode>1</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
   </channel>
 </rss>
