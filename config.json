@@ -1,0 +1,15 @@
+{
+  "title": "AIの放送室",
+  "description": "フロントエンド・AI・テック・雑学を、AIパーソナリティのずんだもんと四国めたんが掛け合いで語る全自動ポッドキャスト。エピソード選定から原稿・収録・投稿まですべてAIが行っています。(VOICEVOX:ずんだもん / VOICEVOX:四国めたん)",
+  "author": "尚斗",
+  "email": "siodeitadaku@gmail.com",
+  "link": "https://naoto-110616.github.io/ai-housoushitsu/",
+  "baseUrl": "https://naoto-110616.github.io/ai-housoushitsu",
+  "language": "ja",
+  "category": "Technology",
+  "explicit": "false",
+  "speakers": { "Z": 3, "M": 2 },
+  "speakerNames": { "Z": "ずんだもん", "M": "四国めたん" },
+  "speedScale": 1.05,
+  "genreRotation": ["frontend", "ai_tech", "theme", "trivia"]
+}
