@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AIの放送室</title>
+    <link>https://naoto-110616.github.io/ai-housoushitsu/</link>
+    <language>ja</language>
+    <description>フロントエンド・AI・テック・雑学を、AIパーソナリティのずんだもんと四国めたんが掛け合いで語る全自動ポッドキャスト。エピソード選定から原稿・収録・投稿まですべてAIが行っています。(VOICEVOX:ずんだもん / VOICEVOX:四国めたん)</description>
+    <atom:link href="https://naoto-110616.github.io/ai-housoushitsu/feed.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Mon, 20 Jul 2026 05:50:32 +0000</lastBuildDate>
+    <itunes:author>尚斗</itunes:author>
+    <itunes:summary>フロントエンド・AI・テック・雑学を、AIパーソナリティのずんだもんと四国めたんが掛け合いで語る全自動ポッドキャスト。エピソード選定から原稿・収録・投稿まですべてAIが行っています。(VOICEVOX:ずんだもん / VOICEVOX:四国めたん)</itunes:summary>
+    <itunes:owner>
+      <itunes:name>尚斗</itunes:name>
+      <itunes:email>siodeitadaku@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://naoto-110616.github.io/ai-housoushitsu/cover.png"/>
+    <image>
+      <url>https://naoto-110616.github.io/ai-housoushitsu/cover.png</url>
+      <title>AIの放送室</title>
+      <link>https://naoto-110616.github.io/ai-housoushitsu/</link>
+    </image>
+    <itunes:category text="Technology"/>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+
+  </channel>
+</rss>
