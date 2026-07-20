@@ -37,7 +37,7 @@ jobs:
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg fonts-noto-cjk
-          pip install -q requests pydub mutagen pillow
+          pip install -q requests pydub mutagen pillow edge-tts
 
       - name: Wait for VOICEVOX Engine
         run: |
@@ -57,7 +57,7 @@ jobs:
       - name: Generate cover art (if missing)
         run: python tools/make_cover.py
 
-      - name: Build RSS feed & site
+      - name: Build RSS feeds & site
         run: python tools/build_feed.py
 
       - name: Commit & push outputs
@@ -69,6 +69,6 @@ jobs:
             echo "No changes to commit"
             exit 0
           fi
-          git commit -m "publish: episode audio & feed [skip ci]"
+          git commit -m "publish: episode audio & feeds [skip ci]"
           git pull --rebase origin main
           git push origin main

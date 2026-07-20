@@ -11,5 +11,51 @@
   "speakers": { "Z": 3, "M": 2 },
   "speakerNames": { "Z": "ずんだもん", "M": "四国めたん" },
   "speedScale": 1.05,
-  "genreRotation": ["frontend", "ai_tech", "theme", "trivia"]
+  "genreRotation": ["frontend", "ai_tech", "theme", "trivia"],
+  "languages": {
+    "ja": {
+      "dir": "",
+      "engine": "voicevox",
+      "language": "ja",
+      "title": "AIの放送室",
+      "subtitle": "全自動 AI ポッドキャスト",
+      "description": "フロントエンド・AI・テック・雑学を、AIパーソナリティのずんだもんと四国めたんが掛け合いで語る全自動ポッドキャスト。エピソード選定から原稿・収録・投稿まですべてAIが行っています。(VOICEVOX:ずんだもん / VOICEVOX:四国めたん)",
+      "voices": { "Z": 3, "M": 2 },
+      "hostNames": { "Z": "ずんだもん", "M": "四国めたん" },
+      "credit": "音声: VOICEVOX:ずんだもん / VOICEVOX:四国めたん"
+    },
+    "en": {
+      "dir": "en",
+      "engine": "edge",
+      "language": "en",
+      "title": "AI Broadcast Room",
+      "subtitle": "A fully automated AI podcast",
+      "description": "A fully automated podcast where two AI hosts, Zen and Mira, chat about frontend development, AI, tech news, and trivia. Episode selection, scriptwriting, recording, and publishing are all done by AI. English edition of the Japanese show 'AIの放送室'.",
+      "voices": { "Z": "en-US-GuyNeural", "M": "en-US-JennyNeural" },
+      "hostNames": { "Z": "Zen", "M": "Mira" },
+      "credit": "Voices: Microsoft neural text-to-speech"
+    },
+    "es": {
+      "dir": "es",
+      "engine": "edge",
+      "language": "es",
+      "title": "La Sala de Radio IA",
+      "subtitle": "Un pódcast de IA totalmente automatizado",
+      "description": "Un pódcast totalmente automatizado en el que dos presentadores de IA, Zen y Mira, conversan sobre desarrollo frontend, inteligencia artificial, tecnología y curiosidades. La selección de episodios, el guion, la grabación y la publicación se realizan íntegramente con IA. Edición en español del programa japonés 'AIの放送室'.",
+      "voices": { "Z": "es-MX-JorgeNeural", "M": "es-MX-DaliaNeural" },
+      "hostNames": { "Z": "Zen", "M": "Mira" },
+      "credit": "Voces: síntesis de voz neuronal de Microsoft"
+    },
+    "pt": {
+      "dir": "pt",
+      "engine": "edge",
+      "language": "pt-BR",
+      "title": "Sala de Rádio IA",
+      "subtitle": "Um podcast de IA totalmente automatizado",
+      "description": "Um podcast totalmente automatizado em que dois apresentadores de IA, Zen e Mira, conversam sobre desenvolvimento frontend, inteligência artificial, tecnologia e curiosidades. A seleção de episódios, o roteiro, a gravação e a publicação são feitos inteiramente por IA. Edição em português do programa japonês 'AIの放送室'.",
+      "voices": { "Z": "pt-BR-AntonioNeural", "M": "pt-BR-FranciscaNeural" },
+      "hostNames": { "Z": "Zen", "M": "Mira" },
+      "credit": "Vozes: síntese de voz neural da Microsoft"
+    }
+  }
 }
