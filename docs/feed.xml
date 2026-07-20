@@ -9,7 +9,7 @@
     <language>ja</language>
     <description>フロントエンド・AI・テック・雑学を、AIパーソナリティのずんだもんと四国めたんが掛け合いで語る全自動ポッドキャスト。エピソード選定から原稿・収録・投稿まですべてAIが行っています。(VOICEVOX:ずんだもん / VOICEVOX:四国めたん)</description>
     <atom:link href="https://naoto-110616.github.io/ai-housoushitsu/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 20 Jul 2026 07:12:30 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 07:14:51 +0000</lastBuildDate>
     <itunes:author>尚斗</itunes:author>
     <itunes:summary>フロントエンド・AI・テック・雑学を、AIパーソナリティのずんだもんと四国めたんが掛け合いで語る全自動ポッドキャスト。エピソード選定から原稿・収録・投稿まですべてAIが行っています。(VOICEVOX:ずんだもん / VOICEVOX:四国めたん)</itunes:summary>
     <itunes:owner>
@@ -27,7 +27,7 @@
     <itunes:type>episodic</itunes:type>
     <item>
       <title>#2 GPT-5.6三兄弟登場、アップル対オープンAI、そしてAIエージェントがウェブでお金を払う話</title>
-      <description>【AI・テック】第2回はAI・テックニュース回。7月9日にリリースされたオープンAIの新モデルファミリー「GPT-5.6」（ソル・テラ・ルナ）の実力と開発者向け新機能、アップルがオープンAIを営業秘密の窃取で訴えた注目の裁判、そしてクラウドフレアが先行受付を開始した、AIエージェントがHTTP 402とステーブルコインでウェブに支払いをする新サービス「マネタイゼーションゲートウェイ」について、ずんだもんと四国めたんが語ります。
+      <description>[AI・テック] 第2回はAI・テックニュース回。7月9日にリリースされたオープンAIの新モデルファミリー「GPT-5.6」（ソル・テラ・ルナ）の実力と開発者向け新機能、アップルがオープンAIを営業秘密の窃取で訴えた注目の裁判、そしてクラウドフレアが先行受付を開始した、AIエージェントがHTTP 402とステーブルコインでウェブに支払いをする新サービス「マネタイゼーションゲートウェイ」について、ずんだもんと四国めたんが語ります。
 
 音声: VOICEVOX:ずんだもん / VOICEVOX:四国めたん</description>
       <enclosure url="https://naoto-110616.github.io/ai-housoushitsu/audio/ep002.mp3" length="6279011" type="audio/mpeg"/>
@@ -39,7 +39,7 @@
     </item>
     <item>
       <title>#1 Next.js 16の今とReact系フレームワーク勢力図2026</title>
-      <description>【フロントエンド】記念すべき第1回。Next.js 16.2の大幅なパフォーマンス改善（開発サーバー起動が約4倍高速化、レンダリング最大60%高速化）と16.3のTurbopack進化・AI開発者向け機能、そして2026年のReact系フレームワーク勢力図（Next.js / React Router v8 / TanStack Start / Remix 3 / Astro）をずんだもんと四国めたんが語ります。
+      <description>[フロントエンド] 記念すべき第1回。Next.js 16.2の大幅なパフォーマンス改善（開発サーバー起動が約4倍高速化、レンダリング最大60%高速化）と16.3のTurbopack進化・AI開発者向け機能、そして2026年のReact系フレームワーク勢力図（Next.js / React Router v8 / TanStack Start / Remix 3 / Astro）をずんだもんと四国めたんが語ります。
 
 音声: VOICEVOX:ずんだもん / VOICEVOX:四国めたん</description>
       <enclosure url="https://naoto-110616.github.io/ai-housoushitsu/audio/ep001.mp3" length="5238548" type="audio/mpeg"/>

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>La Sala de Radio IA</title>
+<link rel="alternate" type="application/rss+xml" title="La Sala de Radio IA" href="feed.xml">
+<style>
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+body { font-family: -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif; background: #0f1115; color: #e7e9ee; margin: 0; }
+.wrap { max-width: 720px; margin: 0 auto; padding: 32px 20px 80px; }
+header { display: flex; gap: 20px; align-items: center; margin-bottom: 8px; }
+header img { width: 96px; height: 96px; border-radius: 20px; }
+h1 { font-size: 26px; margin: 0; }
+.langs { display: flex; gap: 8px; margin: 14px 0 4px; flex-wrap: wrap; }
+.lang { font-size: 12.5px; color: #9aa3b2; text-decoration: none; border: 1px solid #272c38; border-radius: 999px; padding: 4px 12px; }
+.lang.active { color: #0f1115; background: #ff8a3c; border-color: #ff8a3c; font-weight: 600; }
+.desc { color: #9aa3b2; font-size: 14px; line-height: 1.8; }
+.rss { display: inline-block; margin: 12px 0 28px; color: #ff8a3c; text-decoration: none; font-size: 14px; border: 1px solid #3a2f24; padding: 6px 14px; border-radius: 999px; }
+.ep { background: #171a21; border: 1px solid #272c38; border-radius: 14px; padding: 20px; margin-bottom: 16px; }
+.ep h2 { font-size: 17px; margin: 8px 0; }
+.ep p { color: #9aa3b2; font-size: 13.5px; line-height: 1.8; margin: 0 0 12px; }
+.meta { display: flex; gap: 10px; font-size: 12px; color: #6b7280; align-items: center; }
+.num { color: #ff8a3c; font-weight: 700; }
+.genre { background: #232837; border-radius: 999px; padding: 2px 10px; }
+audio { width: 100%; }
+footer { margin-top: 40px; color: #6b7280; font-size: 12px; line-height: 1.9; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header><img src="cover.png" alt=""><h1>La Sala de Radio IA</h1></header>
+    <div class="langs"><a class="lang" href="../">日本語</a><a class="lang" href="../en/">English</a><span class="lang active">Español</span><a class="lang" href="../pt/">Português</a></div>
+    <p class="desc">Un pódcast totalmente automatizado en el que dos presentadores de IA, Zen y Mira, conversan sobre desarrollo frontend, inteligencia artificial, tecnología y curiosidades. La selección de episodios, el guion, la grabación y la publicación se realizan íntegramente con IA. Edición en español del programa japonés 'AIの放送室'.</p>
+    <a class="rss" href="feed.xml">📡 RSS</a>
+
+    <footer>Voces: síntesis de voz neuronal de Microsoft<br>La selección de episodios, guiones, grabación y publicación están totalmente automatizadas.</footer>
+  </div>
+</body>
+</html>

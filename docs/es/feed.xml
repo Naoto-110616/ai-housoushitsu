@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>La Sala de Radio IA</title>
+    <link>https://naoto-110616.github.io/ai-housoushitsu/es/</link>
+    <language>es</language>
+    <description>Un pódcast totalmente automatizado en el que dos presentadores de IA, Zen y Mira, conversan sobre desarrollo frontend, inteligencia artificial, tecnología y curiosidades. La selección de episodios, el guion, la grabación y la publicación se realizan íntegramente con IA. Edición en español del programa japonés 'AIの放送室'.</description>
+    <atom:link href="https://naoto-110616.github.io/ai-housoushitsu/es/feed.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Mon, 20 Jul 2026 07:14:51 +0000</lastBuildDate>
+    <itunes:author>尚斗</itunes:author>
+    <itunes:summary>Un pódcast totalmente automatizado en el que dos presentadores de IA, Zen y Mira, conversan sobre desarrollo frontend, inteligencia artificial, tecnología y curiosidades. La selección de episodios, el guion, la grabación y la publicación se realizan íntegramente con IA. Edición en español del programa japonés 'AIの放送室'.</itunes:summary>
+    <itunes:owner>
+      <itunes:name>尚斗</itunes:name>
+      <itunes:email>siodeitadaku@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://naoto-110616.github.io/ai-housoushitsu/es/cover.png"/>
+    <image>
+      <url>https://naoto-110616.github.io/ai-housoushitsu/es/cover.png</url>
+      <title>La Sala de Radio IA</title>
+      <link>https://naoto-110616.github.io/ai-housoushitsu/es/</link>
+    </image>
+    <itunes:category text="Technology"/>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+
+  </channel>
+</rss>
