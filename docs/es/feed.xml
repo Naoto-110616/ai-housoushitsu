@@ -9,7 +9,7 @@
     <language>es</language>
     <description>Un pódcast totalmente automatizado en el que dos presentadores de IA, Zen y Mira, conversan sobre desarrollo frontend, inteligencia artificial, tecnología y curiosidades. La selección de episodios, el guion, la grabación y la publicación se realizan íntegramente con IA. Edición en español del programa japonés 'AIの放送室'.</description>
     <atom:link href="https://naoto-110616.github.io/ai-housoushitsu/es/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 20 Jul 2026 07:21:41 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 22:13:50 +0000</lastBuildDate>
     <itunes:author>尚斗</itunes:author>
     <itunes:summary>Un pódcast totalmente automatizado en el que dos presentadores de IA, Zen y Mira, conversan sobre desarrollo frontend, inteligencia artificial, tecnología y curiosidades. La selección de episodios, el guion, la grabación y la publicación se realizan íntegramente con IA. Edición en español del programa japonés 'AIの放送室'.</itunes:summary>
     <itunes:owner>
@@ -25,6 +25,17 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>#3 ¿Por qué importan los design systems? Lo que debes saber antes de crear uno</title>
+      <description>[A Fondo] El episodio 3 es un episodio temático: por qué importan los design systems. Un design system no es solo una biblioteca de componentes de UI, sino un marco integral para reproducir buen diseño de forma consistente como organización. Zen y Mira repasan los tres grandes beneficios (lenguaje común, velocidad de desarrollo y calidad), los design tokens y la primera versión estable de la especificación del grupo comunitario del W3C, ejemplos reales como el design system de la Agencia Digital de Japón y Spindle de CyberAgent, consejos para empezar en pequeño, y por qué los design systems importan aún más en la era de la IA generativa.
 
+Voces: síntesis de voz neuronal de Microsoft</description>
+      <enclosure url="https://naoto-110616.github.io/ai-housoushitsu/es/audio/ep003.mp3" length="7127223" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://naoto-110616.github.io/ai-housoushitsu/es/audio/ep003.mp3</guid>
+      <pubDate>Sun, 26 Jul 2026 06:00:00 +0900</pubDate>
+      <itunes:duration>00:09:53</itunes:duration>
+      <itunes:episode>3</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
   </channel>
 </rss>

@@ -9,7 +9,7 @@
     <language>ja</language>
     <description>フロントエンド・AI・テック・雑学を、AIパーソナリティのずんだもんと四国めたんが掛け合いで語る全自動ポッドキャスト。エピソード選定から原稿・収録・投稿まですべてAIが行っています。(VOICEVOX:ずんだもん / VOICEVOX:四国めたん)</description>
     <atom:link href="https://naoto-110616.github.io/ai-housoushitsu/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 20 Jul 2026 07:21:41 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 22:13:50 +0000</lastBuildDate>
     <itunes:author>尚斗</itunes:author>
     <itunes:summary>フロントエンド・AI・テック・雑学を、AIパーソナリティのずんだもんと四国めたんが掛け合いで語る全自動ポッドキャスト。エピソード選定から原稿・収録・投稿まですべてAIが行っています。(VOICEVOX:ずんだもん / VOICEVOX:四国めたん)</itunes:summary>
     <itunes:owner>
@@ -25,6 +25,18 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>#3 デザインシステムはなぜ必要か — 作る前に知っておきたいこと</title>
+      <description>[テーマ回] 第3回はテーマ回。「デザインシステムはなぜ必要か」をじっくり深掘りします。デザインシステムは単なるUI部品集ではなく、良いデザインを組織として再現し続けるための包括的な仕組み。共通言語・開発効率・品質という3つのメリット、鍵となるデザイントークンとW3Cコミュニティグループによる標準仕様の安定版リリース、デジタル庁やサイバーエージェントSpindleといった日本の事例、小さく始めるコツ、そして生成AI時代にデザインシステムの重要性がむしろ高まる理由まで、ずんだもんと四国めたんが語ります。
+
+音声: VOICEVOX:ずんだもん / VOICEVOX:四国めたん</description>
+      <enclosure url="https://naoto-110616.github.io/ai-housoushitsu/audio/ep003.mp3" length="6363929" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://naoto-110616.github.io/ai-housoushitsu/audio/ep003.mp3</guid>
+      <pubDate>Sun, 26 Jul 2026 06:00:00 +0900</pubDate>
+      <itunes:duration>00:08:50</itunes:duration>
+      <itunes:episode>3</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>#2 GPT-5.6三兄弟登場、アップル対オープンAI、そしてAIエージェントがウェブでお金を払う話</title>
       <description>[AI・テック] 第2回はAI・テックニュース回。7月9日にリリースされたオープンAIの新モデルファミリー「GPT-5.6」（ソル・テラ・ルナ）の実力と開発者向け新機能、アップルがオープンAIを営業秘密の窃取で訴えた注目の裁判、そしてクラウドフレアが先行受付を開始した、AIエージェントがHTTP 402とステーブルコインでウェブに支払いをする新サービス「マネタイゼーションゲートウェイ」について、ずんだもんと四国めたんが語ります。
