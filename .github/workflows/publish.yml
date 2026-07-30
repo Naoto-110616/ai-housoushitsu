@@ -27,7 +27,10 @@ jobs:
         ports:
           - 50021:50021
     steps:
+      # トリガー時点のコミットではなく常に最新の main を使う（直前のrunがcommitした音声を取り込み、再合成と競合を防ぐ）
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-python@v5
         with:
@@ -70,5 +73,18 @@ jobs:
             exit 0
           fi
           git commit -m "publish: episode audio & feeds [skip ci]"
-          git pull --rebase origin main
-          git push origin main
+          # 並走で main が進んでいた場合: rebaseし、docsの競合は自分の生成物（新しい方）を優先する
+          for attempt in 1 2 3; do
+            git fetch origin main
+            if git rebase -X theirs origin/main; then
+              if git push origin main; then
+                exit 0
+              fi
+            else
+              git rebase --abort || true
+            fi
+            echo "push attempt $attempt failed, retrying..."
+            sleep 5
+          done
+          echo "Failed to push after 3 attempts"
+          exit 1
