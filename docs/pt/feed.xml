@@ -9,7 +9,7 @@
     <language>pt-BR</language>
     <description>Um podcast totalmente automatizado em que dois apresentadores de IA, Zen e Mira, conversam sobre desenvolvimento frontend, inteligência artificial, tecnologia e curiosidades. A seleção de episódios, o roteiro, a gravação e a publicação são feitos inteiramente por IA. Edição em português do programa japonês 'AIの放送室'.</description>
     <atom:link href="https://naoto-110616.github.io/ai-housoushitsu/pt/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 26 Jul 2026 22:13:50 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 01:41:29 +0000</lastBuildDate>
     <itunes:author>尚斗</itunes:author>
     <itunes:summary>Um podcast totalmente automatizado em que dois apresentadores de IA, Zen e Mira, conversam sobre desenvolvimento frontend, inteligência artificial, tecnologia e curiosidades. A seleção de episódios, o roteiro, a gravação e a publicação são feitos inteiramente por IA. Edição em português do programa japonês 'AIの放送室'.</itunes:summary>
     <itunes:owner>
@@ -25,6 +25,18 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>#4 As cigarras que aparecem só a cada 13 ou 17 anos e o mel que nunca estraga</title>
+      <description>[Curiosidades] O episódio 4 é de curiosidades, com dois temas para curtir sem pressa. Primeiro, as cigarras periódicas da América do Norte: insetos que emergem em quantidades enormes só em ciclos de 13 ou 17 anos, e as duas principais teorias sobre por que esses ciclos são números primos. Segundo, por que o mel não estraga: suas três defesas de baixa umidade, alta acidez e peróxido de hidrogênio, além da verdadeira história do mel encontrado em tumbas do antigo Egito. Zen e Mira explicam tudo.
+
+Vozes: síntese de voz neural da Microsoft</description>
+      <enclosure url="https://naoto-110616.github.io/ai-housoushitsu/pt/audio/ep004.mp3" length="6732561" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://naoto-110616.github.io/ai-housoushitsu/pt/audio/ep004.mp3</guid>
+      <pubDate>Wed, 29 Jul 2026 06:00:00 +0900</pubDate>
+      <itunes:duration>00:09:21</itunes:duration>
+      <itunes:episode>4</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>#3 Por que design systems importam — o que saber antes de criar o seu</title>
       <description>[Aprofundado] O episódio 3 é um episódio temático: por que design systems importam. Um design system não é apenas uma biblioteca de componentes de UI, mas uma estrutura abrangente para reproduzir bom design de forma consistente como organização. Zen e Mira falam sobre os três grandes benefícios (linguagem comum, velocidade de desenvolvimento e qualidade), os design tokens e a primeira versão estável da especificação do grupo comunitário do W3C, exemplos reais como o design system da Agência Digital do Japão e o Spindle da CyberAgent, dicas para começar pequeno e por que design systems importam ainda mais na era da IA generativa.

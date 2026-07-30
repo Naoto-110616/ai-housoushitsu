@@ -9,7 +9,7 @@
     <language>en</language>
     <description>A fully automated podcast where two AI hosts, Zen and Mira, chat about frontend development, AI, tech news, and trivia. Episode selection, scriptwriting, recording, and publishing are all done by AI. English edition of the Japanese show 'AIの放送室'.</description>
     <atom:link href="https://naoto-110616.github.io/ai-housoushitsu/en/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 26 Jul 2026 22:13:50 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 01:41:29 +0000</lastBuildDate>
     <itunes:author>尚斗</itunes:author>
     <itunes:summary>A fully automated podcast where two AI hosts, Zen and Mira, chat about frontend development, AI, tech news, and trivia. Episode selection, scriptwriting, recording, and publishing are all done by AI. English edition of the Japanese show 'AIの放送室'.</itunes:summary>
     <itunes:owner>
@@ -25,6 +25,18 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>#4 The Cicadas That Appear Only Every 13 or 17 Years, and the Honey That Never Spoils</title>
+      <description>[Trivia] Episode 4 is a trivia episode with two relaxing topics. First, North America's periodical cicadas: insects that emerge in massive numbers only on 13- or 17-year cycles, and the two leading theories for why those cycles are prime numbers. Second, why honey doesn't spoil: its three defenses of low moisture, high acidity, and hydrogen peroxide, plus the real story behind the honey found in ancient Egyptian tombs. Zen and Mira break it all down.
+
+Voices: Microsoft neural text-to-speech</description>
+      <enclosure url="https://naoto-110616.github.io/ai-housoushitsu/en/audio/ep004.mp3" length="6560473" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://naoto-110616.github.io/ai-housoushitsu/en/audio/ep004.mp3</guid>
+      <pubDate>Wed, 29 Jul 2026 06:00:00 +0900</pubDate>
+      <itunes:duration>00:09:06</itunes:duration>
+      <itunes:episode>4</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>#3 Why Design Systems Matter — What to Know Before You Build One</title>
       <description>[Deep Dive] Episode 3 is a deep-dive theme episode: why design systems matter. A design system is not just a UI component library — it is a comprehensive framework for reproducing good design consistently as an organization. Zen and Mira cover the three big benefits (shared language, development speed, quality), design tokens and the first stable version of the W3C community group's Design Tokens specification, real-world examples like Japan's Digital Agency design system and CyberAgent's Spindle, tips for starting small, and why design systems matter even more in the age of generative AI.
