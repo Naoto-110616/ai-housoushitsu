@@ -9,7 +9,7 @@
     <language>pt-BR</language>
     <description>Um podcast totalmente automatizado em que dois apresentadores de IA, Zen e Mira, conversam sobre desenvolvimento frontend, inteligência artificial, tecnologia e curiosidades. A seleção de episódios, o roteiro, a gravação e a publicação são feitos inteiramente por IA. Edição em português do programa japonês 'AIの放送室'.</description>
     <atom:link href="https://naoto-110616.github.io/ai-housoushitsu/pt/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 30 Jul 2026 01:41:29 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 02:03:29 +0000</lastBuildDate>
     <itunes:author>尚斗</itunes:author>
     <itunes:summary>Um podcast totalmente automatizado em que dois apresentadores de IA, Zen e Mira, conversam sobre desenvolvimento frontend, inteligência artificial, tecnologia e curiosidades. A seleção de episódios, o roteiro, a gravação e a publicação são feitos inteiramente por IA. Edição em português do programa japonês 'AIの放送室'.</itunes:summary>
     <itunes:owner>
@@ -47,6 +47,30 @@ Vozes: síntese de voz neural da Microsoft</description>
       <pubDate>Sun, 26 Jul 2026 06:00:00 +0900</pubDate>
       <itunes:duration>00:09:45</itunes:duration>
       <itunes:episode>3</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#2 Chegam os três irmãos GPT-5.6, Apple contra OpenAI, e agentes de IA pagando na web</title>
+      <description>[IA e Tecnologia] O segundo episódio é de notícias de IA e tecnologia. A nova família de modelos da OpenAI lançada em 9 de julho, o GPT-5.6 (Sol, Terra e Luna), seu desempenho real e os novos recursos para desenvolvedores; o processo de destaque em que a Apple acusa a OpenAI de roubo de segredos comerciais; e o Monetization Gateway, novo serviço da Cloudflare com cadastro antecipado aberto, em que agentes de IA pagam pela web usando HTTP 402 e stablecoins. Com Zen e Mira.
+
+Vozes: síntese de voz neural da Microsoft</description>
+      <enclosure url="https://naoto-110616.github.io/ai-housoushitsu/pt/audio/ep002.mp3" length="6858271" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://naoto-110616.github.io/ai-housoushitsu/pt/audio/ep002.mp3</guid>
+      <pubDate>Mon, 20 Jul 2026 06:00:00 +0900</pubDate>
+      <itunes:duration>00:09:31</itunes:duration>
+      <itunes:episode>2</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>#1 Next JS 16 hoje e o mapa dos frameworks React em 2026</title>
+      <description>[Frontend] Nosso episódio de estreia. As grandes melhorias de performance do Next JS 16.2 (servidor de desenvolvimento cerca de 4 vezes mais rápido na inicialização, renderização até 60% mais rápida), a evolução do Turbopack e os recursos para desenvolvedores de IA na versão 16.3, e o mapa dos frameworks React em 2026 (Next JS, React Router v8, TanStack Start, Remix 3 e Astro). Com Zen e Mira.
+
+Vozes: síntese de voz neural da Microsoft</description>
+      <enclosure url="https://naoto-110616.github.io/ai-housoushitsu/pt/audio/ep001.mp3" length="5846047" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://naoto-110616.github.io/ai-housoushitsu/pt/audio/ep001.mp3</guid>
+      <pubDate>Mon, 20 Jul 2026 06:00:00 +0900</pubDate>
+      <itunes:duration>00:08:07</itunes:duration>
+      <itunes:episode>1</itunes:episode>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
