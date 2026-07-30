@@ -13,7 +13,7 @@
 ## 実行手順
 
 1. **状態の確認** — GitHub MCP でリポジトリ `Naoto-110616/ai-housoushitsu` を読む
-   - `scripts/` 直下（日本語原本）の一覧から最新エピソード番号と直近のジャンルを確認する
+   - `scripts/` 直下（日本語原本）の一覧から最新エピソード番号と直近のジャンルを確認する。**既に今日の日付のエピソードが存在する場合は何もせず終了する**
    - `config.json` の `genreRotation` に従い、次のジャンルを決める（ローテーション: frontend → ai_tech → theme → trivia → frontend …）
    - 直近5エピソードのタイトル・トピックを確認し、**内容の重複を避ける**
 
@@ -40,10 +40,11 @@
    - title / description / lines の `t` を自然に翻訳・ローカライズする（直訳調は避ける）。`s`・`genre`・`date`・`sources` はそのまま
    - ホスト名は Zen（Z、明るく好奇心旺盛）と Mira（M、落ち着いた解説役）。「ずんだもん」「四国めたん」という名前や「〜なのだ」の翻訳調は使わない。自己紹介も Zen / Mira に置き換える
    - 番組名は言語ごとのタイトル（en: AI Broadcast Room / es: La Sala de Radio IA / pt: Sala de Rádio IA）を使う
-   - 音声読み上げ前提: 略語の羅列を避け、固有名詞は通常表記（例: Next.js）でよい。日本語版のカタカナ読みは元の英語表記に戻す
+   - 音声読み上げ前提: 略語の羅列を避け、固有名詞は通常表記（例: Next JS）でよい。日本語版のカタカナ読みは元の英語表記に戻す
    - 配置: `scripts/en/epNNN.json`、`scripts/es/epNNN.json`、`scripts/pt/epNNN.json`
 
 5. **コミット** — GitHub MCP の `push_files` を使い、**日本語原本＋全翻訳版（＋theme回なら themes.json）を1回のコミットで** main へ push する
+   - **push_files の呼び出しは必ず1回だけ。レスポンスに commit SHA が含まれていれば成功であり、絶対に再実行しない**（過去に同一内容が6回重複コミットされた事故がある）。レスポンスが大きすぎて読めない場合も、エラーと明記されていなければ成功とみなす。不安なら list_commits で確認する
    - ファイルを分けて何度もコミットしないこと（GitHub Actions が多重起動するため）
    - commit すると GitHub Actions が全言語の音声合成→RSS更新を自動で行う（約15〜20分）
 
